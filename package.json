@@ -1,16 +1,16 @@
 {
-  "name": "groupme-bot",
+  "name": "groupme-wordsearch",
   "version": "1.0.0",
   "description": "Group Me Bot initially to define words",
-  "main": "definition.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "node-fetch": "^3.0.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "groupme",
     "bot"
